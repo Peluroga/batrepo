@@ -1,0 +1,55 @@
+*{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin: 0 ;
+     padding: 0;
+     border: none;
+     box-sizing: border-box;
+}
+hr{
+    border: 1px #000 solid;
+    margin: 10px;
+}
+body{
+     min-height: 100vh;
+     background: linear-gradient(0deg, rgba(0,0,0,1) 1%, rgba(51,51,51,1) 25%, rgba(0,0,0,1) 100%);
+}
+#site{
+    width: 1024px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto ;
+    border-radius: 15px;
+}
+#batopo{
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 20px 0 20px;
+
+}
+#bat-busca{
+  flex-grow: 1;
+  text-align: right;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+#busca{
+   border: 2px solid #515151;
+   padding: 3px;
+
+}
+#bat-busca button{
+    background: transparent;
+    cursor: pointer;   
+}
+#bat-busca button svg{
+    transition: all 300ms;
+
+}
+#bat-busca button:hover svg{
+    stroke: #888;
+
+}
