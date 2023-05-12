@@ -12,13 +12,12 @@ hr{
 body{
      min-height: 100vh;
      background: linear-gradient(0deg, rgba(0,0,0,1) 1%, rgba(51,51,51,1) 25%, rgba(0,0,0,1) 100%);
-     background-image: url(imgs/batman-hq-icone.jpg);
-     background-size: flex;
+     background-image: url(imgs/download.jfif);
+     background-size: auto;
 }
 #site{
     width: 1024px;
-    height: 800px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(150, 150, 150, 0.918);
     margin: 20px auto ;
     border-radius: 15px;
 }
@@ -72,10 +71,105 @@ body{
      transition: all 300ms;
      
 }
-#menu a:hover{
-color:   #FEF111;
+#batopo h2{
+      
+    font-family: 'Bangers', cursive;
+    font-size: 3.5em;
+    text-shadow:   3px -3px#FEF111,
+                  -3px 3px#FEF111,
+                  -3px -3px#FEF111,
+                   3px 3px#FEF111;    
+
 
 }
+#menu a:hover{
+     color:   #FEF111;
+
+}
+.produto{
+     margin: 20px;
+
+
+}
+.container-produto{
+     display: flex;
+     align-items: flex-start;
+}
+.container-produto img{
+    flex-grow: 0.1;
+}
+.container-produto .dados-produto{
+    flex-grow: 0.2;
+
+}
+.dados-produto p{
+    margin: 10px 0;
+
+}
+.produto h1{
+  font-family: 'Bangers', cursive;
+  font-size: 3.0em;
+  margin-bottom: 15px;
+}
+#preço{
+  font-size: 2em;
+
+}
+.tabela{
+   border: 1px solid #000;
+   width: 100%;
+   text-align: center;
+}
+.tabela tr td{
+      border: 1px solid #000; 
+}
+.tabela th{
+      color: #fff;
+      background-color: #000;
+
+}
+
+.tabela tr:nth-child(even) td{
+      background: #ffffff69;
+
+}
+#batopo{
+ background-color: #333;
+
+}
+#btn-compra{
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  display: flex;
+  justify-items: center;
+  margin: 3px;
+
+}
+#btn-compra:hover{
+color: #FEF111;
+transition: all 300ms;
+
+}
+#btn-compra svg{
+    fill: #fff;
+
+}
+#rodape{
+padding: 50px;
+display: flex;
+text-align: center;
+border-top: #000;
+
+
+
+}
+    
+    
+
+
 
 
 
